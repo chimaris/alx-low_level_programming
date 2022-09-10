@@ -11,7 +11,7 @@ int main(void)
 	int digit1;
 	int digit2;
 
-	for (digit1 = 0; digit1 < 10; digit1++)
+	for (digit1 = 0; digit1 < 9; digit1++)
 	{
 		for (digit2 = digit1; digit2 < 10; digit2++)
 		{
@@ -19,11 +19,16 @@ int main(void)
 			{
 				putchar((digit1 % 10) + '0');
 				putchar((digit2 % 10) + '0');
+
+				if (digit1 == 8 && digit2 == 9)
+				{
+					continue;
+				}
+
 				putchar(',');
 				putchar(' ');
-
-				continue;
 			}
+
 		}
 	}
 
