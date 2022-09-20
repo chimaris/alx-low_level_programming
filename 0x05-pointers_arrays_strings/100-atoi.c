@@ -7,6 +7,7 @@
  */
 int _atoi(char *s)
 {
+	/** The standard library provides a similar function: atoi. Run man atoi */
 	unsigned int count = 0, size = 0, oi = 0, pn = 1, m = 1, i;
 
 	while (*(s + count) != '\0')
