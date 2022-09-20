@@ -10,7 +10,7 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-	/** The standard library provides a similar function: strcpy. Run man strcpy */
+	/** This provides a similar function: strcpy. Run man strcpy */
 	int count = 0;
 
 	while (count >= 0)
