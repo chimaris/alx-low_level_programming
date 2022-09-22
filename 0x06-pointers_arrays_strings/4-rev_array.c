@@ -13,7 +13,10 @@ void reverse_array(int *a, int n)
 
 	for (i = n; i >= 0; i--)
 	{
-		printf("%d ", a[i]);
+		printf("%d", a[i]);
+		if (i == 0)
+			continue;
+		printf(", ");
 	}
 	printf("\n");
 }
