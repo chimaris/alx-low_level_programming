@@ -3,6 +3,7 @@
 /**
  * _strlen_recursion - prints a string in reverse
  * @s: param 1
+ * Return: string length
  */
 
 int _strlen_recursion(char *s)
