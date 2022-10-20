@@ -17,12 +17,12 @@ list_t *add_node(list_t **head, const char *str)
 	new_node = malloc(sizeof(list_t));
 
 	if (dup == NULL)
-		return (NULL);
-	if (new_node == NULL)
 	{
 		free(new_node);
 		return (NULL);
 	}
+	if (new_node == NULL)
+		return (NULL);
 
 	while (*str != '\0')
 	{
