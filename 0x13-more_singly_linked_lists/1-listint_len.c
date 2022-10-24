@@ -2,7 +2,7 @@
 
 /**
  * listint_len - Print number of elements in listint_t
- * @h = The pointer to the head
+ * @h: The pointer to the head
  * Return: Always 0
  */
 
